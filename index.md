@@ -13,7 +13,7 @@ enddate: 2018-11-20        # machine-readable end date for the workshop in YYYY-
 instructor: ["Logan Cox", "Claire Curry", "Sarah Pugachev"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Mark Laufersweiler", "Braden Owsley", "Traci Popejoy", "Amanda Schilling"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["cmcurry@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: ""            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: "https://pad.carpentries.org/2018-11-19-ou-dc"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "51666722558"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -356,23 +356,13 @@ eventbrite: "51666722558"          # optional: alphanumeric key for Eventbrite r
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
+<p> There is also a good tool for working with SQLite databases: <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="https://www.sqlite.org/download.html">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
+            <p>
+        SQLite comes pre-installed on macOS.
       </p>
     </div>
     <div class="col-md-4">
