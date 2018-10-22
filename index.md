@@ -356,13 +356,13 @@ eventbrite: "51666722558"          # optional: alphanumeric key for Eventbrite r
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-<p> There is also a good tool for working with SQLite databases: <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> </p>
+<p> There is a good tool for working with SQLite databases: <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
             <p>
-        SQLite comes pre-installed on macOS.
+        Use DB Browser for SQLite.
       </p>
     </div>
     <div class="col-md-4">
@@ -379,9 +379,7 @@ eventbrite: "51666722558"          # optional: alphanumeric key for Eventbrite r
     </div>
   </div>
 
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
+
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
